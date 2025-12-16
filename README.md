@@ -24,7 +24,7 @@ Currently supports detection for:
 1. Clone the repository:
    
    ```bash
-   git clone [https://github.com/TON_USER/file-type-identifier.git](https://github.com/TON_USER/file-type-identifier.git)
+   git clone https://github.com/CND-cyb/file-type-identifier.git
    ```
 3. Navigate to the folder:
    
