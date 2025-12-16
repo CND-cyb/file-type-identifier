@@ -38,7 +38,7 @@ Currently supports detection for:
 * Analyze a single file
   
     ```bash
-    python scanner.py -f suspicious_image.jpg
+    python main.py -f suspicious_image.jpg
     ```
 *Output:
     The file type is: jpg OR ALERT MISMATCH! The file type is : exe*
@@ -46,7 +46,7 @@ Currently supports detection for:
 * Scan a directory (Recursive)
   
     ```bash
-    python scanner.py -d C:/Downloads
+    python main.py -d C:/Downloads
     ```
 *Output:
     ...................................
