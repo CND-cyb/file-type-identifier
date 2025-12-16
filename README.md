@@ -22,18 +22,21 @@ Currently supports detection for:
 ## 📦 Installation
 
 1. Clone the repository:
+   
    ```bash
    git clone [https://github.com/TON_USER/file-type-identifier.git](https://github.com/TON_USER/file-type-identifier.git)
    ```
-2. Navigate to the folder:
+3. Navigate to the folder:
+   
    ```bash
    cd file-type-identifier
    ```
-3. No external dependencies required (uses standard Python libraries: os, argparse).
+5. No external dependencies required (uses standard Python libraries: os, argparse).
 
 ## 💻 Usage
 
 * Analyze a single file
+  
     ```bash
     python scanner.py -f suspicious_image.jpg
     ```
@@ -41,6 +44,7 @@ Currently supports detection for:
     The file type is: jpg OR ALERT MISMATCH! The file type is : exe*
 
 * Scan a directory (Recursive)
+  
     ```bash
     python scanner.py -d C:/Downloads
     ```
