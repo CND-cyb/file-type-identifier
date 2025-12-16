@@ -37,6 +37,7 @@ Currently supports detection for:
     ```bash
     python scanner.py -f suspicious_image.jpg
     ```
+
 *Output:
     The file type is: jpg OR ALERT MISMATCH! The file type is : exe*
 
@@ -44,6 +45,7 @@ Currently supports detection for:
     ```bash
     python scanner.py -d C:/Downloads
     ```
+
 *Output:
     ...................................
     - ALERT MISMATCH! The file type of vacation_photo.jpg is : exe*
